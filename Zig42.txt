@@ -1,0 +1,11 @@
+All the extraction and basic data preprocessing is done in the .py file.
+
+I used Requests module to extract the data
+
+At the moment there was a problem to load the csv data to the mysql workbench that is why query could not run but i have writen the query below which will execute to give the output of top 25 gainers of the day sorted in the order of their gains.
+
+
+SELECT * 
+FROM BHAV_TABLE
+ORDER BY gains DESC
+LIMIT 25
